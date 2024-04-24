@@ -1,0 +1,328 @@
+/* PALETA DE COLORES COOLORS.CO  (https://coolors.co/f72585-7209b7-3a0ca3-4361ee-4cc9f0)
+#f72585 rose
+#7209b7 Grape
+#3a0ca3  Zaffre
+#4361ee  neon blue
+#4cc9f0 Vivid sky blue
+
+
+:root
+{
+    --color-rose: #f72585;
+    --color-Grape: #7209b7;
+    --color-Zaffre: #3a0ca3;
+    --color-neon-blue: #4361ee ;
+    --color-Vivid-sky-blue: #4cc9f0;
+
+}
+ */
+
+body {
+  background-color: #1f2023;
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+form {
+  width: 100%;
+  min-width: 50px;
+  max-width: 700px;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  border-top: 15px solid #4d6d63;
+  border-bottom: 15px solid #4d6d63;
+  border-left: 20px solid #1f2023;
+  border-right: 20px solid #1f2023;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+fieldset {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fieldset-1 {
+  background-color: #d6e2de;
+  border-radius: 3px;
+  border: solid #4d6d63 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.nombre {
+  text-align: center;
+}
+label[for='lbl-nombre'] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.apellido {
+  text-align: center;
+}
+label[for='lbl-Apellido'] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.documento {
+  text-align: center;
+}
+
+label[for='lbl-Documento'] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.nacionalidad {
+  text-align: center;
+}
+
+label[for='lbl-Nacionalidad'] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+label[for='lbl-resena'] {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sexo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+.sexo1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  text-align: center;
+}
+
+.fieldset-2 {
+  background-color: #d6e2de;
+  border-radius: 3px;
+  border: solid #4d6d63 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.telefono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+label[for='lbl-telefono'] {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+label[for='lbl-Email'] {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.fieldset-3 {
+  background-color: #d6e2de;
+  border-radius: 3px;
+  border: solid #4d6d63 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+fieldset:focus-within {
+  background-color: #a7bdba;
+}
+
+.puntos::after {
+  content: '\•\•\•\•\•\•\•\•\•\•\•';
+  font-size: 60px;
+  color: #d6e2de;
+  letter-spacing: 10px;
+}
+
+.puntos {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-left: 135px;
+  margin-right: 135px;
+  overflow: hidden;
+}
+
+legend {
+  background-color: #4d6d63;
+  text-align: justify;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+fieldset:focus-within legend,
+legend:focus-within {
+  background-color: #2b3d37;
+}
+
+label {
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+label[for='lbl-resena'] {
+  display: block;
+}
+
+span {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+label[for='lbl-resena'] {
+  display: block;
+}
+
+textarea {
+  resize: vertical;
+  border-radius: 3px;
+  min-height: 150px;
+  width: 100%;
+  max-width: 480px;
+  min-width: 100px;
+}
+
+.textarea-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea-2:focus {
+  background-color: hsl(161, 17%, 36%);
+  color: white;
+}
+
+select {
+  color: rgba(0, 0, 0, 0.541);
+  height: 33px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 485px;
+}
+select:focus {
+  border: solid 2px black;
+}
+
+.input-1 {
+  text-align: end;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  height: 30px;
+  border-color: rgba(0, 0, 0, 0.452);
+  width: 100%;
+  max-width: 480px;
+  font-size: 17px;
+}
+input:focus {
+  background-color: #4d6d63;
+  color: white;
+}
+
+input[type='radio'] {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sede-palermo {
+  display: flex;
+  font-size: 14px;
+}
+
+.sede-rosario {
+  display: flex;
+  font-size: 14px;
+}
+
+.p-campo-obligatorio {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 14px;
+}
+.div-condiciones {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 14px;
+
+  margin-top: 1em;
+}
+
+.div-novedades {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  margin-top: 1em;
+}
+
+button {
+  background-color: #273633;
+  color: #d6e2de;
+  margin-left: 30px;
+  border: solid 1px #4d6d63;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.button-1 {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #96afab;
+  color: #273633;
+}
+
+.p-actividades1 {
+  font-size: 13px;
+}
+.p-actividades2 {
+  text-align: start;
+}
